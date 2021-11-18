@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>goit-markup-hw-01</title>
+    <link href="./styles/modern-normalize.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="head">
+      <div class="head-conteiner conteiner">
+        <!--Навигация-->
+        <nav class="navigation">
+          <a class="logo" href="./index.html" lang="en"
+            >Web<span class="head-logo-studio">Studio</span></a
+          >
+          <ul class="list-menu">
+            <li class="lint"><a class="item current" href="./index.html">Студия</a></li>
+            <li class="lint"><a class="item" href="./portfolio.html">Портфолио</a></li>
+            <li class="lint"><a class="item" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <!--Контакты-->
+        <ul class="contacts-list">
+          <li class="lint">
+            <a class="item" href="mailto:info@devstudio.com">
+              <svg class="contacts-list-icon-envelope">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="lint">
+            <a class="item" href="tel:+380961111111">
+              <svg class="contacts-list-icon-vector">
+                <use href="./images/symbol-defs.svg#icon-vector"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!--Герой-->
+      <section class="section main-screen">
+        <div class="conteiner">
+          <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="to-order">Заказать услугу</button>
+        </div>
+      </section>
+      <!--Особенности-->
+      <section class="section">
+        <div class="conteiner">
+          <h2 class="visually-hidden">features</h2>
+          <ul class="features-list">
+            <li class="lint antenna">
+              <h3 title class="lint-title">Внимание к деталям</h3>
+              <p class="lint-text">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
+            <li class="lint clock">
+              <h3 class="lint-title">Пунктуальность</h3>
+              <p class="lint-text">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
+            <li class="lint diagram">
+              <h3 class="lint-title">Планирование</h3>
+              <p class="lint-text">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
+            <li class="lint astronaut">
+              <h3 title class="lint-title">Современные технологии</h3>
+              <p class="lint-text">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--Направление-->
+      <section class="section follow">
+        <div class="conteiner">
+          <h2 class="follow-title">Чем мы занимаемся</h2>
+          <ul class="follow-list">
+            <li class="follow-lint">
+              <img
+                src="images/desk-office.jpg"
+                alt="programer working his desk office"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="follow-lint">
+              <img
+                src="images/interface-mobile-phones.jpg"
+                alt="web ui designers are developing application smartphones team creators is working interface mobile phones"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="follow-lint">
+              <img
+                src="images/graphic-tablet.jpg"
+                alt="creativeartist web design with working colour selection graphic tablet"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--Наша команда-->
+      <section class="section our-team">
+        <div class="conteiner">
+          <h2 class="our-team-title">Наша команда</h2>
+          <ul class="our-team-list">
+            <li class="our-team-lint">
+              <img
+                class="our-team-photo"
+                src="images/product-designer.jpg"
+                alt="Product Designer"
+                width="270"
+                height="260"
+              />
+              <div class="our-team-text-block">
+                <h3 class="lint-title">Игорь Демьяненко</h3>
+                <p class="lint-text">Product Designer</p>
+                <ul class="ot-block-list">
+                  <li class="ot-block-lint">
+                    <a href="#" class="ot-block-link">
+                      <svg class="ot-block-icon">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ot-block-lint">
+                    <a href="#" class="ot-block-link">
+                      <svg class="ot-block-icon">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ot-block-lint">
+                    <a href="#" class="ot-block-link">
+                      <svg class="ot-block-icon">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ot-block-lint">
+                    <a href="#" class="ot-block-link">
+                      <svg class="ot-block-icon">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="our-team-lint">
+              <img
+                class="our-team-photo"
+                src="images/frontend-developer.jpg"
+                alt="Frontend Developer"
+                width="270"
+                height="260"
+              />
+              <div class="our-team-text-block">
+                <h3 class="lint-title">Ольга Репина</h3>
+                <p class="lint-text">Frontend Developer</p>
+                <ul class="ot-block-list">
+                  <li class="ot-block-lint">
+                    <a href="#" class="ot-block-link">
+                      <svg class="ot-block-icon">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ot-block-lint">
+                    <a href="#" class="ot-block-link">
+                      <svg class="ot-block-icon">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ot-block-lint">
+                    <a href="#" class="ot-block-link">
+                      <svg class="ot-block-icon">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ot-block-lint">
+                    <a href="#" class="ot-block-link">
+                      <svg class="ot-block-icon">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="our-team-lint">
+              <img
+                class="our-team-photo"
+                src="images/marketing.jpg"
+                alt="Marketing"
+                width="270"
+                height="260"
+              />
+              <div class="our-team-text-block">
+                <h3 class="lint-title">Николай Тарасов</h3>
+                <p class="lint-text">Marketing</p>
+                <ul class="ot-block-list">
+                  <li class="ot-block-lint">
+                    <a href="#" class="ot-block-link">
+                      <svg class="ot-block-icon">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ot-block-lint">
+                    <a href="#" class="ot-block-link">
+                      <svg class="ot-block-icon">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ot-block-lint">
+                    <a href="#" class="ot-block-link">
+                      <svg class="ot-block-icon">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ot-block-lint">
+                    <a href="#" class="ot-block-link">
+                      <svg class="ot-block-icon">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="our-team-lint">
+              <img
+                class="our-team-photo"
+                src="images/ui-designer.jpg"
+                alt="UI Designer"
+                width="270"
+                height="260"
+              />
+              <div class="our-team-text-block">
+                <h3 class="lint-title">Михаил Ермаков</h3>
+                <p class="lint-text">UI Designer</p>
+                <ul class="ot-block-list">
+                  <li class="ot-block-lint">
+                    <a href="#" class="ot-block-link">
+                      <svg class="ot-block-icon">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ot-block-lint">
+                    <a href="#" class="ot-block-link">
+                      <svg class="ot-block-icon">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ot-block-lint">
+                    <a href="#" class="ot-block-link">
+                      <svg class="ot-block-icon">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="ot-block-lint">
+                    <a href="#" class="ot-block-link">
+                      <svg class="ot-block-icon">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!---Постоянные клиенты-->
+    <section class="section clients">
+      <div class="conteiner">
+        <h2 class="clients-title">Чем мы занимаемся</h2>
+        <ul class="clients-list">
+          <li class="clients-lint">
+            <a href="#" class="clients-link">
+              <svg class="clients-icon">
+                <use href="./images/symbol-defs.svg#icon-client-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-lint">
+            <a href="#" class="clients-link">
+              <svg class="clients-icon">
+                <use href="./images/symbol-defs.svg#icon-client-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-lint">
+            <a href="#" class="clients-link">
+              <svg class="clients-icon">
+                <use href="./images/symbol-defs.svg#icon-client-3"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-lint">
+            <a href="#" class="clients-link">
+              <svg class="clients-icon">
+                <use href="./images/symbol-defs.svg#icon-client-4"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-lint">
+            <a href="#" class="clients-link">
+              <svg class="clients-icon">
+                <use href="./images/symbol-defs.svg#icon-client-5"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-lint">
+            <a href="#" class="clients-link">
+              <svg class="clients-icon">
+                <use href="./images/symbol-defs.svg#icon-client-6"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!---Подвал-->
+    <footer class="footer">
+      <div class="conteiner footer-block">
+        <div class="address-block">
+          <a class="logo" href="./index.html" lang="en"
+            >Web<span class="footer-logo-studio">Studio</span></a
+          >
+          <address>
+            <ul class="address-list">
+              <li class="address-lint">
+                <a
+                  class="item on-map"
+                  href="https://goo.gl/maps/a3mqNuimZ3VsWyFX9"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address-lint">
+                <a class="item contacts-item" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-lint">
+                <a class="item contacts-item" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="social-network-block">
+          <h2 class="social-network-title">присоединяйтесь</h2>
+          <ul class="ot-block-list">
+            <li class="ot-block-lint">
+              <a href="#" class="ot-block-link">
+                <svg class="ot-block-icon">
+                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="ot-block-lint">
+              <a href="#" class="ot-block-link">
+                <svg class="ot-block-icon">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="ot-block-lint">
+              <a href="#" class="ot-block-link">
+                <svg class="ot-block-icon">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="ot-block-lint">
+              <a href="#" class="ot-block-link">
+                <svg class="ot-block-icon">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
